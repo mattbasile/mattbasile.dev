@@ -1,21 +1,29 @@
 import React, { Component } from 'react'
 import MockDesktop from '../img/mock_desktop.png'
 import Modal from './modal'
+import data from '../data/data.json'
 
 export default class projects extends Component {
   constructor(){
     super();
     this.state={
       modalTitle: 'BirthRide',
-      openModal: true
+      openModal: false,
+      modals: data.modals,
+      selected: data.modals[0],
+
     }
   }
-  
   selectModal = e =>{
     const val = e.target.title;
     console.log(this.state.modalTitle)
-    this.setState({modalTitle: val, openModal:true})
+    this.setState({modalTitle: val, openModal:true, selected: this.state.modals.find(modal => val === modal.title)})
+    // this.changeSelected()
   }
+//   changeSelected = e =>{
+//     const newSelected = this.state.modals.find(modal => this.state.modalTitle === modal.title)
+//     this.setState({selected: newSelected})
+// }
   hideModal = e =>{
     this.setState({openModal:false})
   }
@@ -56,7 +64,7 @@ export default class projects extends Component {
           </div>
         </div>
       </section>
-      <Modal openModal={this.state.openModal} hideModal={this.hideModal}/>
+      <Modal selected={this.state.selected} openModal={this.state.openModal} hideModal={this.hideModal} />
       </>
     )
   }

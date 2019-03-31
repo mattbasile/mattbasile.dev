@@ -1,0 +1,30 @@
+{
+    "modals":[
+        {
+            "title": "BirthRide",
+            "role": "Full Stack Engineer",
+            "stack": ["React", "Redux", "Jest", "Nodejs", "Express", "Knex", "Axios", "PostgresSQL", "OAuth", "Twilio", "Google Maps API"],
+            "github": "https://github.com/labs11-uberambulance",
+            "siteURL": "https://birthride.herokuapp.com/",
+            "description": "Bacon ipsum dolor amet tongue pork loin flank beef burgdoggen drumstick t-bone. Pork loin venison short loin, kevin tenderloin hamburger kielbasa brisket biltong. Salami buffalo tail picanha tongue turkey, pork chop kielbasa capicola spare ribs corned beef ham hock andouille. Salami buffalo tail picanha tongue turkey, pork chop kielbasa capicola spare ribs corned beef ham hock andouille."
+        },
+        {
+            "title": "Donor Management",
+            "role": "Backend Engineer",
+            "stack": ["Nodejs", "Express", "Knex", "PostgresSQL", "SQLlite", "Jest", "Heroku"],
+            "github": "https://github.com/donor-management/Backend",
+            "siteURL": "https://donor-management-landing-page.netlify.com/",
+            "description": "Bacon ipsum dolor amet tongue pork loin flank beef burgdoggen drumstick t-bone. Pork loin venison short loin, kevin tenderloin hamburger kielbasa brisket biltong. Salami buffalo tail picanha tongue turkey, pork chop kielbasa capicola spare ribs corned beef ham hock andouille. Salami buffalo tail picanha tongue turkey, pork chop kielbasa capicola spare ribs corned beef ham hock andouille."
+        },
+        {
+            "title": "Guidr",
+            "role": "Frontend Engineer",
+            "stack": ["React", "Redux", "React Router", "Axios", "TailwindCSS", "Greensock Animations","Netlify"],
+            "github": "https://github.com/labs11-uberambulance",
+            "siteURL": "https://github.com/guidr-app-lion-team/guidr-client-deploy",
+            "description": "Bacon ipsum dolor amet tongue pork loin flank beef burgdoggen drumstick t-bone. Pork loin venison short loin, kevin tenderloin hamburger kielbasa brisket biltong. Salami buffalo tail picanha tongue turkey, pork chop kielbasa capicola spare ribs corned beef ham hock andouille. Salami buffalo tail picanha tongue turkey, pork chop kielbasa capicola spare ribs corned beef ham hock andouille."
+        }
+    ],
+    "truths":[],
+    "lies":[]
+}
