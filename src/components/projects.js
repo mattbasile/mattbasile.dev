@@ -31,7 +31,7 @@ export default class projects extends Component {
   render() {
     return (
     <>
-      <section className="mt-16">
+      <section className="mt-16 relative">
         <h2 className="text-4xl text-center">What I've built recently</h2>
         <p className="text-xl mt-2 text-center">As a student at Lambda School I've built a handful of projects that have helped me grow as a fullstack developer.</p>
         <div className="flex space-between mt-8 ">
@@ -63,8 +63,9 @@ export default class projects extends Component {
             </button>
           </div>
         </div>
+        <Modal selected={this.state.selected} openModal={this.state.openModal} hideModal={this.hideModal} />
       </section>
-      <Modal selected={this.state.selected} openModal={this.state.openModal} hideModal={this.hideModal} />
+
       </>
     )
   }
