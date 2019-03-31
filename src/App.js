@@ -9,11 +9,14 @@ import Contact from './components/contact.js'
 
 
 class App extends Component {
+  waveGif=()=>{
+    console.log('hey')
+  }
   render() {
     return (
       <div className="App">
         <Header />
-        <Profile />
+        <Profile waveGif={this.waveGif}/>
         <Projects/>
         <Truths/>
         <Articles/>
