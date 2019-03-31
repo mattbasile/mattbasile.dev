@@ -20,8 +20,8 @@ export default class header extends Component {
       <header id="confetti-canvas" className="h-80 bg-blue-darker relative">
       
         <div className="h-24"></div>
-        <p className="text-white text-center text-5xl pt-16">Let's build something <b onClick={e=>this.toggleConfetti()}className="underline hover:text-red cursor-pointer">great</b> together.
-        <Firework active={this.state.active}/>
+        <p className="flex justify-center text-white text-center text-5xl pt-16">Let's build something <b onClick={e=>this.toggleConfetti()}className="app_confetti underline hover:text-red cursor-pointer px-3">great <Firework active={this.state.active}/></b> together.
+        
         </p>
         
           <svg className="absolute pin-b" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1399 163">

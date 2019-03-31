@@ -3,8 +3,8 @@ import Confetti from 'react-dom-confetti';
 
 export default function firework(props) {
     const config = {
-        angle: 90,
-        spread: "233",
+        angle: 180,
+        spread: "750",
         startVelocity: 45,
         elementCount: 50,
         dragFriction: 0.1,
