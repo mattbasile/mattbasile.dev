@@ -40,7 +40,7 @@ export default class projects extends Component {
             <a href="/">
               <img className="hvr-float-shadow my-6" src={MockDesktop} alt="MockDesktop"/>
             </a> 
-            <button onClick={e=>this.selectModal(e)} title="BirthRide" class="bg-transparent hover:bg-blue text-blue-dark font-semibold hover:text-white py-2 px-4 border border-blue hover:border-transparent rounded">
+            <button onClick={e=>this.selectModal(e)} title="BirthRide" className="bg-transparent hover:bg-blue text-blue-dark font-semibold hover:text-white py-2 px-4 border border-blue hover:border-transparent rounded">
             Learn More
             </button>
           </div>
@@ -49,7 +49,7 @@ export default class projects extends Component {
            <a href="/">
             <img className="hvr-float-shadow my-6" src={MockDesktop} alt="MockDesktop"/>
             </a>
-            <button onClick={e=>this.selectModal(e)} title="Donor Management" class="bg-transparent hover:bg-blue text-blue-dark font-semibold hover:text-white py-2 px-4 border border-blue hover:border-transparent rounded">
+            <button onClick={e=>this.selectModal(e)} title="Donor Management" className="bg-transparent hover:bg-blue text-blue-dark font-semibold hover:text-white py-2 px-4 border border-blue hover:border-transparent rounded">
             Learn More
             </button>
           </div>
@@ -58,7 +58,7 @@ export default class projects extends Component {
            <a href="/">
             <img className="hvr-float-shadow my-6" src={MockDesktop} alt="MockDesktop"/>
             </a>
-            <button onClick={e=>this.selectModal(e)} title="Guidr" class="bg-transparent hover:bg-blue text-blue-dark font-semibold hover:text-white py-2 px-4 border border-blue hover:border-transparent rounded">
+            <button onClick={e=>this.selectModal(e)} title="Guidr" className="bg-transparent hover:bg-blue text-blue-dark font-semibold hover:text-white py-2 px-4 border border-blue hover:border-transparent rounded">
             Learn More
             </button>
           </div>

@@ -25,6 +25,60 @@
             "description": "Bacon ipsum dolor amet tongue pork loin flank beef burgdoggen drumstick t-bone. Pork loin venison short loin, kevin tenderloin hamburger kielbasa brisket biltong. Salami buffalo tail picanha tongue turkey, pork chop kielbasa capicola spare ribs corned beef ham hock andouille. Salami buffalo tail picanha tongue turkey, pork chop kielbasa capicola spare ribs corned beef ham hock andouille."
         }
     ],
-    "truths":[],
-    "lies":[]
+    "truths":[
+        {
+        "question":"I was not born in the United States.",
+        "answer": "I was born in London, England!",
+        "votes": 0,
+        "lie": false
+        },
+        {
+        "question":"I once, unknowingly, slept on top of a lizard.",
+        "answer": "Long story, but it wasn't pretty...",
+        "votes": 0,
+        "lie": false
+        },
+        {"question":"I've taken a train lasting over 24 hours.",
+        "answer": "The summer I spent in India we took a train from Chiplun to Kochi in Kerala. It took over 24+ hours but was worth every second.",
+        "votes": 0,
+        "lie": false
+        },
+        {"question":"I can play 6 songs on the Banjo.",
+        "answer": "Cripple Creek, Banjo in the Holla, Boil them Cabbage Down, You are my sunshine, Foggy Mountain Breakdown, and Wagon Wheel",
+        "votes": 0,
+        "lie": false
+        },
+        {
+        "question":"I've never had a favorite sports team win a championship.",
+         "answer": "Jets, Mets, and Knicks remain undefeated in breaking my heart every year.",
+         "votes": 0,
+         "lie": false
+        }
+    ],
+    "lies":[
+        {
+            "question":"I can count backwards from 312 on command.",
+            "answer": "Counting forward is hard enough!",
+            "votes": 0,
+            "lie": true
+        },
+        {
+            "question":"I've never seen a Broadway musical.",
+            "answer": "I've seen a few! Most notably The Lion King and Mamma Mia",
+            "votes": 0,
+            "lie": true
+        },
+        {
+            "question": "I once shared an airplane aisle with celebrity chef Gordon Ramsey.",
+            "answer": "So absurd it must be true right? Unfortunately not, but maybe one day Gordon and I will share a plane. ",
+            "votes": 0,
+            "lie": true
+        },
+        {
+            "question":"I can't tie my shoes.",
+            "answer": "Proud shoe tier since 1999",
+            "votes": 0,
+            "lie": true
+        }
+    ]
 }
