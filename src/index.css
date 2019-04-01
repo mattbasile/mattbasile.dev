@@ -16,6 +16,9 @@ code {
 .h-80{
   height: 80vh;
 }
+.h-60{
+  height:60vh
+}
 .text-5xl{
   font-size: 4rem;
 }
