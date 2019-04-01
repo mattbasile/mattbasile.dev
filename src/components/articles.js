@@ -21,8 +21,8 @@ export default class articles extends Component {
     return (
     <section className="mt-24">
     <div className="text-center">
-      <h3>I'm a blogger too!</h3>
-      <p>Here are some of my most recent posts.</p>
+      <h2 className="text-4xl text-center">I'm a blogger too!</h2 >
+      <p className="text-xl mt-2 text-center">Here are some of my most recent posts.</p>
     </div>
         
         <div className="flex justify-around my-8 w-full mx-auto">
