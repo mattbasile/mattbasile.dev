@@ -6,7 +6,7 @@ export default function profile(props) {
     <>
     <section className="flex flex-wrap flex-col-reverse md:flex-row justify-center">
     
-      <div className="w-full md:w-1/3 text-3xl mx-auto flex flex-col justify-center items-center md:items-start">
+      <div className="w-full md:w-1/3 text-2xl md:text-3xl mx-auto flex flex-col justify-center items-center md:items-start">
         <p className="my-1 flex">Hi, I'm<b onClick={e=>props.waveGif()}className="app_confetti underline hover:text-red cursor-pointer px-2">Matt</b></p>
         <p className="my-1 ">thank you for stopping by!</p>
         <p className="my-1">I'm a full stack developer</p>

@@ -24,9 +24,9 @@ export default function contact() {
       </div>
       </div>
       <svg id="Layer_1" viewBox="0 0 1399 163"><path d="M1335.5,263.5" transform="translate(-85 322)" 
-      style={{"fill":"#1C3D5A", "stroke":"#000", "strokeMiterlimit":10}}/><path d="M512.5,99.5" transform="translate(-85 322)" 
-      style={{"fill":"#1C3D5A", "stroke":"#000", "strokeMiterlimit":10}}/><path d="M85-195S300-322,441-322c168,0,332,61.08,462,81,385,59,581-60,581-60v142H85Z" transform="translate(-85 322)" 
-      style={{"fill":"#1C3D5A"}}/></svg>
+      style={{"fill":"#1C3D5A", "stroke":"#1C3D5A", "strokeMiterlimit":10}}/><path d="M512.5,99.5" transform="translate(-85 322)" 
+      style={{"fill":"#1C3D5A", "stroke":"#1C3D5A", "strokeMiterlimit":10}}/><path d="M85-195S300-322,441-322c168,0,332,61.08,462,81,385,59,581-60,581-60v142H85Z" transform="translate(-85 322)" 
+      style={{"fill":"#1C3D5A", "stroke":"#1C3D5A",}}/></svg>
       {/* <svg id="Layer_1" viewBox="0 0 1399 437">
       <path d="M1335.5,263.5" transform="translate(-127 775)"
       style={{"fill":"#1c3d5a","stroke":"#000",strokeMiterlimit:10}}/>
