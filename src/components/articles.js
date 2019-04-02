@@ -25,7 +25,7 @@ export default class articles extends Component {
       <p className="text-xl mt-2 text-center">Here are some of my most recent posts.</p>
     </div>
         
-        <div className="flex justify-around my-8 w-full mx-auto">
+        <div className="flex flex-wrap justify-around my-8 w-full mx-auto">
           {
             this.state.articles.map(article =>{
               if(article.categories.length > 0){

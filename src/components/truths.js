@@ -60,15 +60,15 @@ export default class truths extends Component {
       <section className="my-8">
         <h2 className="text-4xl text-center">Want to learn more about me?</h2>
         <p className="text-xl mt-2 text-center">Let's play a game of 2 truths and a lie... see if you can spot that lie <span role="img">😏</span></p>
-        <div className="w-3/5 h-auto bg-white my-8 border border-r-2 border-b-2 border-t-0 border-l-0 shadow-sm mx-auto ">
+        <div className="w-4/5 md:w-3/5 h-auto bg-white my-8 border border-r-2 border-b-2 border-t-0 border-l-0 shadow-sm mx-auto ">
         {this.state.questions.map((question,i) =>{
           if(this.state.submitted === true){
            return ( <div className={
              this.state.selected === question.question ?
              this.state.winner ?
-             "w-full text-center flex justify-center items-center h-32 border text-3xl bg-green":
-             "w-full text-center flex justify-center items-center h-32 border text-3xl bg-red" :
-             "w-full text-center flex justify-center items-center h-32 border text-3xl bg-grey-lightest"
+             "w-full text-center flex justify-center items-center h-32 border text-xl md:text-3xl bg-green":
+             "w-full text-center flex justify-center items-center h-32 border text-xl md:text-3xl bg-red" :
+             "w-full text-center flex justify-center items-center h-32 border text-xl md:text-3xl bg-grey-lightest"
              }>
               <p className={question.lie===true? "text-red" : "text-green"}>
                {question.answer}
@@ -78,8 +78,8 @@ export default class truths extends Component {
           if(this.state.submitted === false){
            return (
            <div title={question.question} onClick={e=>this.selectOption(e)}className={this.state.selected === question.question ? 
-            "w-full text-center flex justify-center items-center h-32 border text-3xl bg-purple text-white cursor-pointer"
-            : "w-full text-center flex justify-center items-center h-32 border text-3xl bg-grey-lightest cursor-pointer"
+            "w-full text-center flex justify-center items-center h-32 border text-xl md:text-3xl bg-purple text-white cursor-pointer"
+            : "w-full text-center flex justify-center items-center h-32 border text-xl md:text-3xl bg-grey-lightest cursor-pointer"
           }>
               <p title={question.question} onClick={e=>this.selectOption(e)}>
                 {question.question}
