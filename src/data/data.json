@@ -53,18 +53,24 @@
          "answer": "Jets, Mets, and Knicks remain undefeated in breaking my heart every year.",
          "votes": 0,
          "lie": false
+        },
+        {
+        "question":"I've been featured as Cleveland local news stock footage",
+            "answer": "I was caught walking around Oberlin College Campus. 30 minutes outside Cleveland.",
+            "votes": 0,
+            "lie": false
         }
     ],
     "lies":[
         {
-            "question":"I can count backwards from 312 on command.",
-            "answer": "Counting forward is hard enough!",
+            "question":"I used to act in commercials as a teen.",
+            "answer": "Though I did act a bit in highschool, I was never 'big time'.",
             "votes": 0,
             "lie": true
         },
         {
             "question":"I've never seen a Broadway musical.",
-            "answer": "I've seen a few! Most notably The Lion King and Mamma Mia",
+            "answer": "I've seen a few! Most notably The Lion King and Mamma Mia.",
             "votes": 0,
             "lie": true
         },
@@ -77,6 +83,12 @@
         {
             "question":"I can't tie my shoes.",
             "answer": "Proud shoe tier since 1999",
+            "votes": 0,
+            "lie": true
+        },
+        {
+            "question":"I once went swimming in NYC's East River.",
+            "answer": "Gross... I would NEVER!",
             "votes": 0,
             "lie": true
         }
