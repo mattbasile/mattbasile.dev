@@ -28,9 +28,9 @@ export default class modal extends Component {
                 }
             })}
         </p>
-        <div className="flex flex-wrap mt-4 md:w-1/2">
-        <a href={this.props.selected.siteURL} target="blank" className="bg-blue hover:bg-blue-dark text-white font-bold py-2 px-4 rounded md:mr-2 w-full my-2 md:w-1/2 text-center no-underline">See the Site</a> 
-        <a href={this.props.selected.github} target="blank" className="bg-transparent hover:bg-blue text-blue-dark font-semibold hover:text-white py-2 px-4 border border-blue hover:border-transparent rounded  w-full my-2 md:w-1/2 text-center no-underline">
+        <div className="flex mt-4 flex-wrap lg:flex-no-wrap lg:w-1/2">
+        <a href={this.props.selected.siteURL} target="blank" className="bg-blue hover:bg-blue-dark text-white font-bold py-2 px-4 rounded lg:mr-2 w-full my-2 lg:w-1/2 text-center no-underline">See the Site</a> 
+        <a href={this.props.selected.github} target="blank" className="bg-transparent hover:bg-blue text-blue-dark font-semibold hover:text-white py-2 px-4 border border-blue hover:border-transparent rounded  w-full my-2 lg:w-1/2 text-center no-underline">
            See the Code
         </a>  
         </div>
