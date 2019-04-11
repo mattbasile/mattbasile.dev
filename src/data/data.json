@@ -6,7 +6,7 @@
             "stack": ["React", "Redux", "Jest", "Nodejs", "Express", "Knex", "Axios", "PostgresSQL", "OAuth", "Twilio", "Google Maps API"],
             "github": "https://github.com/labs11-uberambulance",
             "siteURL": "https://birthride.herokuapp.com/",
-            "description": "Bacon ipsum dolor amet tongue pork loin flank beef burgdoggen drumstick t-bone. Pork loin venison short loin, kevin tenderloin hamburger kielbasa brisket biltong. Salami buffalo tail picanha tongue turkey, pork chop kielbasa capicola spare ribs corned beef ham hock andouille. Salami buffalo tail picanha tongue turkey, pork chop kielbasa capicola spare ribs corned beef ham hock andouille."
+            "description": "As a part of my capstone project for Lambda School, I teamed up with 5 developers to create an application for a Ugandan non-profit. The objective of the application is to facilitate communication between in-labor mothers and motorcycle ambulance drivers.Being 1 of 3 web developers on the team, we focused on building a RESTful API that our Web, Andriod and IOS teams could all access. We integrated the Google Maps API and Twilio to provide accurate distance data and immediate contact for those requesting a ride and being requested. Lastly, we integrated the Material UI library to provide our interface a basic but clean look so that our users can have a stress free time when registering or when requesting one of the biggest rides of their lives."
         },
         {
             "title": "Donor Management",
@@ -14,7 +14,7 @@
             "stack": ["Nodejs", "Express", "Knex", "PostgresSQL", "SQLlite", "Jest", "Heroku"],
             "github": "https://github.com/donor-management/Backend",
             "siteURL": "https://donor-management-landing-page.netlify.com/",
-            "description": "Bacon ipsum dolor amet tongue pork loin flank beef burgdoggen drumstick t-bone. Pork loin venison short loin, kevin tenderloin hamburger kielbasa brisket biltong. Salami buffalo tail picanha tongue turkey, pork chop kielbasa capicola spare ribs corned beef ham hock andouille. Salami buffalo tail picanha tongue turkey, pork chop kielbasa capicola spare ribs corned beef ham hock andouille."
+            "description": "Over a week-long period, I served as a backend architect to construct an application for organization to manage their donations. This was my first time working as a backend developer on a team, so I prioritized getting my RESTful API running ASAP so our frontend had data to use. During this project, I learned a lot about the detail one needs to provide as a backend developer. It’s not enough just to create routes and databases, but being able to articulate why and how someone uses that software is just as important as being able to build it."
         },
         {
             "title": "Guidr",
@@ -22,7 +22,7 @@
             "stack": ["React", "Redux", "React Router", "Axios", "TailwindCSS", "Greensock Animations","Netlify"],
             "github": "https://github.com/labs11-uberambulance",
             "siteURL": "https://github.com/guidr-app-lion-team/guidr-client-deploy",
-            "description": "Bacon ipsum dolor amet tongue pork loin flank beef burgdoggen drumstick t-bone. Pork loin venison short loin, kevin tenderloin hamburger kielbasa brisket biltong. Salami buffalo tail picanha tongue turkey, pork chop kielbasa capicola spare ribs corned beef ham hock andouille. Salami buffalo tail picanha tongue turkey, pork chop kielbasa capicola spare ribs corned beef ham hock andouille."
+            "description": "Over a week-long period, I served as a frontend architect to construct an application for outdoorsmen and backcountry guides to catalog their journeys and connect with fellow guides. This was my first exposure to working as part of a team and rely on a backend developer's API to help achieve our goal. Ultimately, it was a fantastic experience and I learned a lot about what it takes to be a frontend developer on a larger development team. Additionally, by utilizing technologies such as React, Redux, and Axios I further cemented my previous learnings in a dynamic and fresh environment."
         }
     ],
     "truths":[

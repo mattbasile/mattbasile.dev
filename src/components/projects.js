@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
-import MockDesktop from '../img/mock_desktop.png'
+import birthMockDesktop from '../img/birth_mock_desktop.png'
+import donorMockDesktop from '../img/donor_mock_desktop.png'
+import guidrMockDesktop from '../img/guidr_mock_desktop.png'
 import Modal from './modal'
 import data from '../data/data.json'
 
@@ -37,8 +39,8 @@ export default class projects extends Component {
         <div className="flex flex-wrap space-between mt-8 ">
           <div className="mx-auto my-4 w-4/5 md:w-1/3 text-center ">
             <h3>BirthRide</h3>
-            <a className="block" href="/">
-              <img className="hvr-float-shadow my-6" src={MockDesktop} alt="MockDesktop"/>
+            <a className="block mx-auto w-4/5" target="blank" href="https://birthride.herokuapp.com/">
+              <img className="hvr-float-shadow my-6" src={birthMockDesktop} alt="MockDesktop"/>
             </a> 
             <button onClick={e=>this.selectModal(e)} title="BirthRide" className="bg-transparent hover:bg-blue text-blue-dark font-semibold hover:text-white py-2 px-4 border border-blue hover:border-transparent rounded">
             Learn More
@@ -46,8 +48,8 @@ export default class projects extends Component {
           </div>
           <div className=" mx-auto my-4 w-4/5 md:w-1/3 text-center ">
            <h3>Donor Management</h3>
-           <a className="block" href="/">
-            <img className="hvr-float-shadow my-6" src={MockDesktop} alt="MockDesktop"/>
+           <a className="block mx-auto w-4/5 " target="blank" href="https://donor-management-landing-page.netlify.com/">
+            <img className="hvr-float-shadow my-6" src={donorMockDesktop} alt="MockDesktop"/>
             </a>
             <button onClick={e=>this.selectModal(e)} title="Donor Management" className="bg-transparent hover:bg-blue text-blue-dark font-semibold hover:text-white py-2 px-4 border border-blue hover:border-transparent rounded">
             Learn More
@@ -55,8 +57,8 @@ export default class projects extends Component {
           </div>
           <div className=" mx-auto my-4 w-4/5 md:w-1/3 text-center ">
            <h3>Guidr</h3>
-           <a className="block" href="/">
-            <img className="hvr-float-shadow my-6" src={MockDesktop} alt="MockDesktop"/>
+           <a className="block mx-auto w-4/5" target="blank" href="https://guidr2.netlify.com/">
+            <img className="hvr-float-shadow my-6" src={guidrMockDesktop} alt="MockDesktop"/>
             </a>
             <button onClick={e=>this.selectModal(e)} title="Guidr" className="bg-transparent hover:bg-blue text-blue-dark font-semibold hover:text-white py-2 px-4 border border-blue hover:border-transparent rounded">
             Learn More
