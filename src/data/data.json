@@ -14,7 +14,7 @@
             "stack": ["Nodejs", "Express", "Knex", "PostgresSQL", "SQLlite", "Jest", "Heroku"],
             "github": "https://github.com/donor-management/Backend",
             "siteURL": "https://donor-management-landing-page.netlify.com/",
-            "description": "Over a week-long period, I served as a backend architect to construct an application for organization to manage their donations. This was my first time working as a backend developer on a team, so I prioritized getting my RESTful API running ASAP so our frontend had data to use. During this project, I learned a lot about the detail one needs to provide as a backend developer. It’s not enough just to create routes and databases, but being able to articulate why and how someone uses that software is just as important as being able to build it."
+            "description": "Over a week-long period, I served as a backend architect to construct an application for organizations to manage their donations. This was my first time working as a backend developer on a team, so I prioritized getting my RESTful API running ASAP so our frontend had data to use. During this project, I learned a lot about the detail one needs to provide as a backend developer. It’s not enough just to create routes and databases, but being able to articulate why and how someone uses that software is just as important as being able to build it."
         },
         {
             "title": "Guidr",
