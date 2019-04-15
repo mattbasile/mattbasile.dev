@@ -9,8 +9,8 @@ import Contact from './components/contact.js'
 
 
 class App extends Component {
-  waveGif=()=>{
-    console.log('hey')
+  waveGif=e=>{
+    console.log(e.target.parentNode.parentNode.nextSibling.firstChild)
   }
   render() {
     return (
