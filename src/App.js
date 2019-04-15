@@ -9,14 +9,12 @@ import Contact from './components/contact.js'
 
 
 class App extends Component {
-  waveGif=e=>{
-    console.log(e.target.parentNode.parentNode.nextSibling.firstChild)
-  }
+  
   render() {
     return (
       <div className="App">
         <Header />
-        <Profile waveGif={this.waveGif}/>
+        <Profile />
         <Projects/>
         <Truths/>
         <Articles/>
