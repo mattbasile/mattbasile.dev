@@ -14,7 +14,7 @@ export default class profile extends Component {
   render() {
     return (
       <>
-      <section className="flex flex-wrap flex-col-reverse md:flex-row justify-center">
+      <section className="flex flex-wrap flex-col-reverse md:flex-row justify-center mx-auto md:w-5/6">
       
         <div className="w-full md:w-1/3 text-2xl md:text-3xl mx-auto flex flex-col justify-center items-center md:items-start">
           <p className="my-1 flex">Hi, I'm<b onClick={this.toggleSpin}className="app_confetti underline hover:text-red cursor-pointer px-2">Matt</b></p>
@@ -25,7 +25,9 @@ export default class profile extends Component {
           <p className="my-1">a better tomorrow.</p> 
         </div>
         <div className="w-4/5 md:w-1/3 mx-auto my-4 md:my-0">
-        <img className={this.state.spinning? 'rotate-center': null} src={ProPic} alt=""/>
+          <div className="pro-image">
+          </div>
+        {/* <img className={this.state.spinning? 'rotate-center': null} src={ProPic} alt=""/> */}
           {/* <svg 
           id="Layer_1" 
           data-name="Layer 1"

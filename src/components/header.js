@@ -17,14 +17,14 @@ export default class header extends Component {
   }
   render() {
     return (
-      <header id="confetti-canvas" className="h-80 lg:h-auto bg-blue-darker relative">
+      <header id="confetti-canvas" className="h-80 lg:h-auto bg-blue-900 relative">
       
         <div className="hidden md:block md:h-24"></div>
-        <p className="flex flex-wrap justify-center text-white text-center title-size pt-16">Let's build something <b onClick={e=>this.toggleConfetti()}className="app_confetti underline hover:text-red cursor-pointer px-3">great <Firework active={this.state.active}/></b> together.
+        <p className="flex flex-wrap justify-center text-white text-center title-size pt-16">Let's build something <b onClick={e=>this.toggleConfetti()}className="app_confetti underline hover:text-red-600 cursor-pointer px-3">great <Firework active={this.state.active}/></b> together.
         
         </p>
         
-          <svg className="absolute pin-b" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1399 163">
+          <svg className="absolute bottom-0" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1399 163">
         <path d="M1335.5,263.5" 
         transform="translate(-85 322)"
         style={{"fill":"white","stroke":"white", "strokeMiterlimit":10}}
