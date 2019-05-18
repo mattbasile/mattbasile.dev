@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import ProPic from '../img/pro_pic.png'
+import ProPic from '../img/pro_square.png'
 
 export default class profile extends Component {
   state={
@@ -14,9 +14,9 @@ export default class profile extends Component {
   render() {
     return (
       <>
-      <section className="flex flex-wrap flex-col-reverse md:flex-row justify-center mx-auto md:w-5/6">
+      <section className="flex flex-wrap flex-col-reverse md:flex-row justify-center mx-auto md:w-4/5">
       
-        <div className="w-full md:w-1/3 text-2xl md:text-3xl mx-auto flex flex-col justify-center items-center md:items-start">
+        <div className="w-full md:w-1/2 text-2xl md:text-3xl mx-auto flex flex-col justify-center items-center md:items-start">
           <p className="my-1 flex">Hi, I'm<b onClick={this.toggleSpin}className="app_confetti underline hover:text-red cursor-pointer px-2">Matt</b></p>
           <p className="my-1 ">thank you for stopping by!</p>
           <p className="my-1">I'm a full stack developer</p>
@@ -26,6 +26,7 @@ export default class profile extends Component {
         </div>
         <div className="w-4/5 md:w-1/3 mx-auto my-4 md:my-0">
           <div className="pro-image">
+            <img src={ProPic} alt=""/>
           </div>
         {/* <img className={this.state.spinning? 'rotate-center': null} src={ProPic} alt=""/> */}
           {/* <svg 
