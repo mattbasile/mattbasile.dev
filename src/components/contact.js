@@ -4,22 +4,22 @@ export default function contact() {
   return (
     <section >
       <div className="mb-12 mt-32">
-      <h2 className="text-4xl  text-center">Other places you can reach me.</h2 >
+      <h2 className="text-4xl font-bold text-center">Other places you can reach me.</h2 >
       <div className="flex md:w-3/5 mx-auto justify-around">
         <a target="blank" href="mailto:matthewbasile2@gmail.com?Subject=Hey Matt! Just saw your Website...">
-          <i className="text-3xl md:text-5xl my-8 far fa-envelope text-red-light hover:text-red "></i>
+          <i className="text-3xl md:text-5xl my-8 far fa-envelope text-red-600 hover:text-red-400 "></i>
         </a>
         <a target="blank" href="https://twitter.com/mattcbasile">
-        <i className="text-3xl md:text-5xl my-8 text-blue-light hover:text-blue-dark  fab fa-twitter"></i>
+        <i className="text-3xl md:text-5xl my-8 text-blue-400 hover:text-blue-600  fab fa-twitter"></i>
         </a>
         <a target="blank" href="https://github.com/mattbasile">
-        <i className="text-3xl md:text-5xl my-8 text-purple-dark  hover:text-purple-darker fab fa-github"></i>
+        <i className="text-3xl md:text-5xl my-8 text-purple-700  hover:text-purple-900 fab fa-github"></i>
         </a>
         <a target="blank" href="https://www.linkedin.com/in/matthew-basile-070b279b/">
-        <i className="text-3xl md:text-5xl my-8 text-blue-dark  hover:text-blue-darker fab fa-linkedin"></i>
+        <i className="text-3xl md:text-5xl my-8 text-blue-700  hover:text-blue-900 fab fa-linkedin"></i>
         </a>
         <a target="blank" href="https://angel.co/matthew-basile">
-        <i className="text-3xl md:text-5xl my-8 text-grey-dark hover:text-grey-darker fab fa-angellist"></i>
+        <i className="text-3xl md:text-5xl my-8 text-gray-600 hover:text-gray-800 fab fa-angellist"></i>
         </a>
       </div>
       </div>
