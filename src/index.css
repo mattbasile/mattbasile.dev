@@ -63,11 +63,11 @@ code {
 .h-80{
   height: 80vh;
 }
-@media only screen and (max-width: 500px ) {
+/* @media only screen and (max-width: 500px ) {
   .h-80{
     height: 75vh;
   }
-}
+} */
 .h-60{
   height:60vh
 }
