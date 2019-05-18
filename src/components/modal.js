@@ -8,12 +8,12 @@ export default class modal extends Component {
 
   render() {
     return (
-      <section className={this.props.openModal ? "bg-white inset-0 z-10 modal absolute w-5/6 md:w-3/5 h-auto mx-auto border border-r-2 border-b-2 border-t-0 border-l-0 shadow-md": "hidden"}>
-      <div className="bg-white border border-r-2 border-b-2 border-t-0 border-l-0 shadow-md p-8 modal-body">
+      <section className={this.props.openModal ? "text-left bg-white inset-0 z-10 modal absolute w-5/6 md:w-3/5 h-auto mx-auto lg:shadow-md": "hidden"}>
+      <div className="bg-white border border-r-2 border-b-2 border-t-0 border-l-0 shadow-md p-4 md:p-8 modal-body">
         <div className="flex justify-end">
             <i onClick={()=>this.props.hideModal()}className="fas fa-times text-2xl hover:text-red-600"></i>
         </div>
-        <h3 className="text-4xl font-bold ">{this.props.selected.title}</h3>
+        <h3 className="text-2xl md:text-4xl font-bold ">{this.props.selected.title}</h3>
         <p className="text-xl mt-2 font-semi-bold">{this.props.selected.role}</p>
         <p className="text-xl mt-8 leading-loose">
         {this.props.selected.description}
