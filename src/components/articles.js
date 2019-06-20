@@ -19,7 +19,7 @@ export default class articles extends Component {
   }
   render() {
     return (
-    <section className="mt-24">
+    <section className=" my-32">
     <div className="text-center">
       <h2 className="text-4xl font-bold text-center">I'm a blogger too!</h2 >
       <p className="text-xl  mt-2 text-center">Here are some of my most recent posts.</p>

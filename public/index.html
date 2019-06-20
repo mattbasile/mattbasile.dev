@@ -2,7 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <!-- <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" /> -->
+  
+    <link id="favicon" rel="shortcut icon" href="" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
@@ -26,7 +27,8 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>Matt Basile Fullstack Developer</title>
+    <!-- <title>Matt Basile Fullstack Developer</title> -->
+
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -42,4 +44,21 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <script>
+      var link = document.getElementById("favicon");
+      console.log(link)
+      window.onblur=function(){
+        //change favicon
+         document.title="Come on back y'all!";
+         link.type = 'image/x-icon';
+         link.rel = 'shortcut icon';
+         link.href = "%PUBLIC_URL%/favicon2.ico"
+        }
+      window.onfocus=function(){
+            document.title="Welcome to Matt Basile's Website";
+            link.type = 'image/x-icon';
+            link.rel = 'shortcut icon';
+            link.href = "%PUBLIC_URL%/favicon1.ico"
+      }
+    </script>
 </html>
