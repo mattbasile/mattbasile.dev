@@ -121,7 +121,7 @@ export default class truths extends Component {
             </>)
             :
             (<>
-               <button onClick={e=>this.submitGuess(e)} title="Guidr" class="my-2 text-2xl w-4/5 h-16 bg-transparent hover:bg-purple-400 text-purple-400 font-semibold hover:text-white py-2 px-4 border border-purple-400 hover:border-transparent rounded mx-auto text-center">
+               <button onClick={e=>this.submitGuess(e)} title="Guidr" class=" cursor-not-allowed my-2 text-2xl w-4/5 h-16 bg-transparent text-purple-400 font-semibold py-2 px-4 border border-purple-400 rounded mx-auto text-center" disabled>
             Submit Guess
             </button>
             </>)
