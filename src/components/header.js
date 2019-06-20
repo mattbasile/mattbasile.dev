@@ -24,7 +24,7 @@ export default class header extends Component {
   
         </p>
         
-        <svg className="absolute bottom-0 z-10" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1399 163">
+        <svg className="absolute bottom-0 z-10 -mb-1" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1399 163">
         <path d="M1335.5,263.5" 
         transform="translate(-85 322)"
         style={{"fill":"#EBF8FF", }}
