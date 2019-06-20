@@ -28,7 +28,7 @@ class App extends Component {
   }
   render() {
     return (
-      <div className="App z-0" >
+      <div className="App z-0 bg-blue-100" >
         <Header/>
         <Profile />
         <Projects 

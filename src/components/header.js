@@ -27,14 +27,14 @@ export default class header extends Component {
         <svg className="absolute bottom-0 border-0" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1399 163">
         <path d="M1335.5,263.5" 
         transform="translate(-85 322)"
-        style={{"fill":"white", "stroke":"white", "strokeMiterlimit":10}}
+        style={{"fill":"#EBF8FF", "stroke":"#EBF8FF", "strokeMiterlimit":10}}
         />
         <path d="M512.5,99.5"
         transform="translate(-85 322)"
-        style={{"fill":"white","stroke":"white", "strokeMiterlimit":10}}
+        style={{"fill":"#EBF8FF","stroke":"#EBF8FF", "strokeMiterlimit":10}}
         /><path d="M85-195S300-322,441-322c168,0,332,61.08,462,81,385,59,581-60,581-60v142H85Z"
         transform="translate(-85 322)" 
-        style={{"fill":"white", "stroke":"white"}}/></svg>
+        style={{"fill":"#EBF8FF", "stroke":"#EBF8FF"}}/></svg>
         
       </header>
     )

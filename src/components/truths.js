@@ -68,7 +68,7 @@ export default class truths extends Component {
              this.state.winner ?
              "w-full text-center flex justify-center items-center h-32 border text-xl md:text-3xl bg-green-600":
              "w-full text-center flex justify-center items-center h-32 border text-xl md:text-3xl bg-red-400" :
-             "w-full text-center flex justify-center items-center h-32 border text-xl md:text-3xl bg-gray-200"
+             "w-full text-center flex justify-center items-center h-32 border text-xl md:text-3xl bg-gray-100"
              }>
               <p className={question.lie===true? "text-red-400" : "text-green-600"}>
               {question.lie===true? `Lie: ${question.answer}` : `Truth: ${question.answer}`}
@@ -79,7 +79,7 @@ export default class truths extends Component {
            return (
            <div title={question.question} onClick={e=>this.selectOption(e)}className={this.state.selected === question.question ? 
             "w-full text-center flex justify-center items-center h-32 border text-xl md:text-3xl bg-purple-400 text-white cursor-pointer"
-            : "w-full text-center flex justify-center items-center h-32 border text-xl md:text-3xl bg-grey-200 cursor-pointer"
+            : "w-full text-center flex justify-center items-center h-32 border text-xl md:text-3xl  bg-gray-100 cursor-pointer hover:bg-gray-400"
           }>
               <p title={question.question} onClick={e=>this.selectOption(e)}>
                 {question.question}
@@ -88,17 +88,17 @@ export default class truths extends Component {
           } 
           })}
           
-          <div className="w-full h-32 border flex flex-col justify-center items-center">
+          <div className="w-full h-32 border flex flex-col justify-center items-center bg-gray-100">
             {this.state.submitted ? this.state.winner ?
               (<>
-              <button onClick={e=>this.playAgain(e)}  class="my-2 text-2xl w-4/5 h-16 bg-transparent hover:bg-purple-400 text-purple-400 font-semibold hover:text-white py-2 px-4 border border-purple-400 hover:border-transparent rounded mx-auto text-center">
+              <button onClick={e=>this.playAgain(e)}  class="my-2 text-2xl w-4/5 h-16 bg-purple-400 hover:bg-purple-600 font-semibold text-white py-2 px-4 border border-purple-400 hover:border-transparent rounded mx-auto text-center">
               Play again?
               </button>
               <h4>Saw right through that one! Nice guessing over there.</h4>
               </>
               )
               :  (<>
-              <button onClick={e=>this.playAgain(e)}  class="my-2 text-2xl w-4/5 h-16 bg-transparent hover:bg-purple-400 text-purple-400 font-semibold hover:text-white py-2 px-4 border border-purple-400 hover:border-transparent rounded mx-auto text-center">
+              <button onClick={e=>this.playAgain(e)}  class="my-2 text-2xl w-4/5 h-16 bg-purple-400 hover:bg-purple-600 font-semibold text-white py-2 px-4 border border-purple-400 hover:border-transparent rounded mx-auto text-center">
               Play again?
               </button>
               <h4>Sorry nice try but that wasn't it!</h4>
@@ -107,7 +107,7 @@ export default class truths extends Component {
               :
               this.state.selected ? 
               (<>
-              <button onClick={e=>this.submitGuess(e)} title="Guidr" class="my-2 text-2xl w-4/5 h-16 bg-transparent hover:bg-purple-400 text-purple-400 font-semibold hover:text-white py-2 px-4 border border-purple-400 hover:border-transparent rounded mx-auto text-center">
+              <button onClick={e=>this.submitGuess(e)} title="Guidr" class="my-2 text-2xl w-4/5 h-16 bg-purple-400 hover:bg-purple-600 text-white font-semibold py-2 px-4 border border-purple-400 hover:border-transparent rounded mx-auto text-center">
             Submit Guess
             </button>
             <h4>{

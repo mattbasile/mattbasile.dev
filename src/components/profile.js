@@ -19,7 +19,7 @@ export default class profile extends Component {
         <div className="w-full md:w-1/2 text-2xl md:text-3xl mx-auto flex flex-col justify-center items-center md:items-start">
           <p className="my-1 flex">Hi, I'm Matt</p>
           <p className="my-1 ">thank you for stopping by!</p>
-          <p className="my-1">I'm a full stack developer</p>
+          <p className="my-1">I'm a full  stack developer</p>
           <p className="my-1">who's passionate about</p>
           <p className="my-1">finding solutions that create</p>
           <p className="my-1">a better tomorrow.</p> 
