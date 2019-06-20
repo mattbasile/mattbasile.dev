@@ -17,9 +17,9 @@ export default class header extends Component {
   }
   render() {
     return (
-      <header id="confetti-canvas" className="h-80 lg:h-auto bg-blue-900 relative">
+      <header id="confetti-canvas" className="h-80 lg:h-auto  relative">
       
-        <div className="hidden md:block md:h-24"></div>
+        <div className="hidden md:block md:h-24 bg-blue-900"></div>
         <p className="flex flex-wrap justify-center text-white text-center title-size pt-6 md:pt-16">Let's build something <b onClick={e=>this.toggleConfetti()}className="app_confetti underline hover:text-red-600 cursor-pointer px-3">great <Firework active={this.state.active}/></b> together.
   
         </p>
