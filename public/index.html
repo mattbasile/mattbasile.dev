@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
   
-    <link id="favicon" rel="shortcut icon" href="" />
+    <link id="favicon" rel="shortcut icon" href="%PUBLIC_URL%/favicon1.ico" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
@@ -17,7 +17,24 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
-
+    <title>Welcome to Matt Basile's Website</title>
+    <script>
+        var link = document.getElementById("favicon");
+        console.log(link)
+        window.onblur=function(){
+          //change favicon
+           document.title="Come on back y'all!";
+           link.type = 'image/x-icon';
+           link.rel = 'shortcut icon';
+           link.href = "%PUBLIC_URL%/favicon2.ico"
+          }
+        window.onfocus=function(){
+              document.title="Welcome to Matt Basile's Website";
+              link.type = 'image/x-icon';
+              link.rel = 'shortcut icon';
+              link.href = "%PUBLIC_URL%/favicon1.ico"
+        }
+      </script>
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -44,21 +61,4 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
-  <script>
-      var link = document.getElementById("favicon");
-      console.log(link)
-      window.onblur=function(){
-        //change favicon
-         document.title="Come on back y'all!";
-         link.type = 'image/x-icon';
-         link.rel = 'shortcut icon';
-         link.href = "%PUBLIC_URL%/favicon2.ico"
-        }
-      window.onfocus=function(){
-            document.title="Welcome to Matt Basile's Website";
-            link.type = 'image/x-icon';
-            link.rel = 'shortcut icon';
-            link.href = "%PUBLIC_URL%/favicon1.ico"
-      }
-    </script>
 </html>
