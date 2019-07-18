@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import {Helmet} from "react-helmet"
 import Header from './components/header.js'
 import Profile from './components/profile.js'
 import Projects from './components/projects.js'
@@ -29,6 +29,12 @@ class App extends Component {
   render() {
     return (
       <div className="App z-0 bg-blue-100" >
+        <Helmet>
+          <title>Here's the Title!</title>
+          <meta name="description" content="Matt Basile Full Stack Web Developer..." />
+          <meta name="keywrods" content="Basile, Matt Basile, Matthew, Developer, Full Stack Developer, Full Stack Developer NYC, New York, Front-end Developer, Front-end Engineer, Software Engineer, Basile Software Engineer, Matt Basile Full Stack Developer NYC,  Full-stack, " />
+          <meta name="robots" content="index,folow"/>
+        </Helmet>
         <Header/>
         <Profile />
         <Projects 
